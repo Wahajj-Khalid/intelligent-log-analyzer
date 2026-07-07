@@ -1,0 +1,11 @@
+# Dependency directories
+node_modules/
+dist/
+.env
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Docker local data cache volume mounts
+postgres_data/
