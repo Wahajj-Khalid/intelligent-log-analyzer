@@ -1,0 +1,34 @@
+# ==========================================
+# Global OS and IDE Overrides
+# ==========================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# ==========================================
+# Infrastructure Data Volumes
+# ==========================================
+postgres_data/
+
+# ==========================================
+# Node.js Backend Service
+# ==========================================
+backend/node_modules/
+backend/dist/
+backend/.env
+
+# ==========================================
+# Python AI Microservice
+# ==========================================
+ai-service/venv/
+ai-service/.venv/
+**/__pycache__/
+*.pyc
+
+# ==========================================
+# React Frontend Service
+# ==========================================
+frontend/node_modules/
+frontend/build/
